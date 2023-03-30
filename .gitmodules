@@ -1,0 +1,6 @@
+[submodule "discord-api-docs"]
+	path = discord-api-docs
+	url = https://github.com/discord/discord-api-docs
+[submodule "discord-unofficial-docs"]
+	path = discord-unofficial-docs
+	url = https://gitlab.com/luna/discord-unofficial-docs
