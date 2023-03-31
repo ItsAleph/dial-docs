@@ -1,0 +1,29 @@
+site_name: Dial Documentation
+site_author: ItsAleph
+site_dir: build
+site_url: https://itsaleph.github.io/dial-docs
+site_description: Unified documentation for public and private Discord's APIs.
+
+repo_name: GitHub
+repo_url: https://github.com/ItsAleph/dial-docs
+
+copyright: Copyright 2023-present ItsAleph
+
+docs_dir: src
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - toc.integrate
+
+nav:
+  - 'Introduction': 'index.md'
+  - 'Unofficial APIs':
+    - 'Overview': 'unofficial/index.md'
+    - 'Attachments': 'unofficial/attachments.md'
+    - 'Client-side Interactions': 'unofficial/client_side_interactions.md'
