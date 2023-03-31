@@ -22,5 +22,4 @@ jobs:
           cache: true
           prerelease: true
       - run: pdm install
-      - run: eval $(pdm venv activate in-project)
-      - run: mkdocs gh-deploy --force
+      - run: pdm run mkdocs gh-deploy --force
