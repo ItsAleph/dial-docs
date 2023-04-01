@@ -1,0 +1,29 @@
+[data-md-color-scheme="rose-pine"] {
+  --md-primary-fg-color: #26233a;
+  --md-primary-bg-color: #e0def4;
+
+  --md-accent-bg-color: #191724;
+  --md-accent-fg-color: #e0def4;
+
+  --md-default-fg-color: #e0def4;
+  --md-default-bg-color: #1f1d2e;
+
+  --md-code-bg-color: #21202e;
+  --md-code-fg-color: #e0def4;
+
+  --md-typeset-color: #e0def4;
+  --md-typeset-a-color: #e0def4;
+  --md-typeset-mark-color: #e0def4;
+  --md-typeset-del-color: #e0def4;
+  --md-typeset-ins-color: #e0def4;
+  --md-typeset-kbd-color: #e0def4;
+  --md-typeset-kbd-accent-color: #e0def4;
+  --md-typeset-kbd-border-color: #e0def4;
+  --md-typeset-table-color: #e0def4;
+  --md-typeset-table-color--light: #e0def4;
+
+  --md-footer-fg-color: #908caa;
+  --md-footer-bg-color: #191724;
+}
+
+[data-md-color-scheme="rose-pine-dawn"] {}
