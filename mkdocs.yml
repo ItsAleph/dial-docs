@@ -21,9 +21,24 @@ theme:
     - navigation.top
     - toc.integrate
 
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: rose-pine
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: rose-pine-dawn
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
 nav:
   - 'Introduction': 'index.md'
   - 'Unofficial APIs':
     - 'Overview': 'unofficial/index.md'
     - 'Attachments': 'unofficial/attachments.md'
     - 'Client-side Interactions': 'unofficial/client_side_interactions.md'
+
+extra_css:
+  - assets/stylesheets/extra.css
